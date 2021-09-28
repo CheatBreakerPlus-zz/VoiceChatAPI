@@ -1,0 +1,5 @@
+channel-on-join: true
+public-voice-name: "Public Channel" # Ff you have the channel on join enabled it will create this.
+
+
+

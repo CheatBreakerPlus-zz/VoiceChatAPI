@@ -1,0 +1,6 @@
+name: VoiceChatAPI
+version: 1.2
+author: Cheatbreaker+ Development Team
+main: com.oldcheatbreaker.voice.VoiceChatAPI
+description: Configurable Voice Chat API for CheatBreaker+
+api-version: CheatBreakerAPI-Revision
