@@ -8,24 +8,24 @@ In this API there are a few useful methods that you can put into your network. S
    Creates a voice channel that will be joinable:
 
 ```java
-VoiceChatAPI.getInstance().createVoice(voicechannel);
+VoiceChatAPI.getInstance().createVoice(voiceChannel);
 ``` 
    Deletes a voice channel if it exists by the name inputted:
    
 ```java
-VoiceChatAPI.getInstance().deleteVoice(voicechannel);
+VoiceChatAPI.getInstance().deleteVoice(voiceChannel);
 ``` 
 
    Filters through all available voice channels and returns the one with the name that you input:
    
 ```java
-VoiceChatAPI.getInstance().getVoiceChannel(voicechannel);
+VoiceChatAPI.getInstance().getVoiceChannel(voiceChannel);
 ``` 
    
    Adds any player to a voice channel with the name inputted (Player MUST be online):
    
 ```java
-VoiceChatAPI.getInstance().addToChannel(player, voicechannel);
+VoiceChatAPI.getInstance().addToChannel(player, voiceChannel);
 ```
    
    This setting must be enabled with the CheatBreaker+ Bukkit API to implement custom voice channels into your server:
